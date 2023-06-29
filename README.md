@@ -1,2 +1,3 @@
 # pousada-secreta
  
+O projeto pousada-secreta tem seu design originado no Curso de Front-End da DevMedia. Esse projeto vem com o proposito de treinar o uso de flexbox, dito isso eu já tenho um bom nível de uso de flexbox. No entanto, me lembro que na primeira vez que realizei esse projeto, tudo isso foi um grande desafio e eu não consegui. Na segunda vez eu consegui terminar o projeto, então depois de alguns meses agora eu estou tentando novamente.
