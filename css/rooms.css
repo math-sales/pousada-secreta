@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Configurações gerais */
+
+a{
+    text-decoration: none;
+}
+
+.max-width{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.font-blue{
+    color: rgb(114, 114, 252);
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.topo{
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo:hover{
+    border-bottom: 3px solid rgb(0, 92, 31);
+}
+
+.home-button{
+    color: #171717;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.link-menu{
+    font-size: 14px;
+    color: #626262;
+    margin-right: 20px;
+}
+/* MAIN */
+
+.section-b, .section-c{
+    margin-bottom: 90px;
+}
+
+.seg-title{
+    color: #626262;
+    margin-bottom: 40px;
+}
+
+.seg-title h2{
+    font-weight: 300;
+    line-height: 42px;
+    margin-top: 70px;
+}
+
+.seg-title p{
+    line-height: 38px;
+}
+
+.section-a{
+    background-image: url('../assets/img-fundo.jpg');
+    height: 210px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-img{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.box-img img{
+    width: 33%;
+    padding-bottom: 10px;
+}
+
+.lista{
+    margin: 40px auto;
+}
+
+h3{
+    font-size: 16px;
+    color: #171717;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul li{
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(30, 145, 97);
+    height: 200px;
+}
+
+.contato{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 2px solid rgb(0, 92, 31);
+    padding: 45px 0;
+}
+
+.contato p{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contato a, .contato p{
+    color: #fff;
+    text-align: left;
+    width: 230px;
+}
+
+.contato a{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.contato a img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.copy{
+    color: #fff;
+    font-weight: bold;
+    padding-top: 20px;
+}
